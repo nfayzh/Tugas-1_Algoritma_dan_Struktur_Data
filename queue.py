@@ -12,15 +12,18 @@ print(f"Jumlah kendaraan dalam antrian : {len(queue)}\n")
 
 # Operasi dequeue (Mengeluarkan Kendaraan dari Antrian)
 print("Kendaraan yang keluar dari antrian (dequeue) :", queue.pop(0))
-print("Sisa kendaraan dalam Antrian:", queue[0] if len(queue) > 0 else "Antrian kosong")
+print("Sisa kendaraan dalam antrian:", queue)
+print("Kendaraan terdepan saat ini:", queue[0] if len(queue) > 0 else "Antrian kosong")
 print(f"Jumlah kendaraan dalam antrian: {len(queue)}\n")
 
 print("Kendaraan yang keluar dari antrian (dequeue) :", queue.pop(0))
-print("Sisa kendaraan dalam Antrian:", queue[0] if len(queue) > 0 else "Antrian kosong")
+print("Sisa kendaraan dalam antrian:", queue)
+print("Kendaraan terdepan saat ini:", queue[0] if len(queue) > 0 else "Antrian kosong")
 print(f"Jumlah kendaraan dalam antrian: {len(queue)}\n")
 
 print("Kendaraan yang keluar dari antrian (dequeue) :", queue.pop(0))
-print("Sisa kendaraan dalam Antrian:", queue[0] if len(queue) > 0 else "Antrian kosong")
+print("Sisa kendaraan dalam antrian:", queue)
+print("Kendaraan terdepan saat ini:", queue[0] if len(queue) > 0 else "Antrian kosong")
 print(f"Jumlah kendaraan dalam antrian: {len(queue)}\n")
 
 # Memeriksa apakah kosong
